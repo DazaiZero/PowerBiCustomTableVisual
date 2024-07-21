@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"AniketVaidya","email":"aniketvaidya2@knorr-bremse.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/ReactTableDD201A7560EA4E468B37D055F1E0124D.pbiviz.json"
+			}
+		],
+		"visual": {"name":"ReactTable","displayName":"ReactTable","guid":"ReactTableDD201A7560EA4E468B37D055F1E0124D","visualClassName":"Visual","version":"1.0.0.0","description":"Test","supportUrl":"test","gitHubUrl":"test"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

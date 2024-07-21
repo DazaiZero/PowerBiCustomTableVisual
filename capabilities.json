@@ -1,0 +1,165 @@
+{
+    "dataRoles": [
+        {
+            "name": "values",
+            "kind": "GroupingOrMeasure",
+            "displayName": "values"
+        }
+    ],
+    "objects": {
+        "headerSettings": {
+            "properties": {
+                "headerColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "displayUnitsProperty": {
+                    "type": {
+                        "formatting": {
+                            "labelDisplayUnits": true
+                        }
+                    }
+                },
+                "fontSize": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "fontFamily": {
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "fontBold": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontUnderline": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontItalic": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "lineAlignment": {
+                    "type": {
+                        "formatting": {
+                            "alignment": true
+                        }
+                    }
+                }
+            }
+        },
+        "dataSettings": {
+            "properties": {
+                "cellColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fontSize": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "fontFamily": {
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "fontBold": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontUnderline": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontItalic": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "lineAlignment": {
+                    "type": {
+                        "formatting": {
+                            "alignment": true
+                        }
+                    }
+                }
+            }
+        },
+        "tableSettings": {
+            "properties": {
+                "tableBorderColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "tableWidth": {
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "for": {
+                        "in": "values"
+                    },
+                    "dataReductionAlgorithm": {
+                        "window": {
+                            "count": 90489
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

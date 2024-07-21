@@ -1,0 +1,37 @@
+.visual-container {
+    max-height: 1000px;
+}
+
+.table-container {
+    max-height: 500px; 
+}
+
+.loading-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: skyblue;
+    color: black;
+    font-weight: bold; 
+}
